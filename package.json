@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/server.js"
+    "start:prod": "NODE_ENV=production node src/server.js",
+    "start:dev": "nodemon src/server.js",
+    "migrate": "node-pg-migrate"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +21,10 @@
   },
   "dependencies": {
     "@hapi/hapi": "^21.4.0",
+    "dotenv": "^17.2.0",
     "joi": "^17.13.3",
-    "nanoid": "^5.1.5"
+    "nanoid": "^5.1.5",
+    "node-pg-migrate": "^8.0.3",
+    "pg": "^8.16.3"
   }
 }
