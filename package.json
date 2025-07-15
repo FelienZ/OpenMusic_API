@@ -1,0 +1,25 @@
+{
+  "name": "openmusic_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "eslint": "^9.31.0",
+    "eslint-config-dicodingacademy": "^0.9.5",
+    "globals": "^16.3.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0",
+    "joi": "^17.13.3",
+    "nanoid": "^5.1.5"
+  }
+}
