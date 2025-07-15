@@ -18,7 +18,7 @@ class SongHandler{
 
     const response = h.response({
       status: 'success',
-      message: 'Catatan berhasil ditambahkan',
+      message: 'Lagu berhasil ditambahkan',
       data: {
         song,
       },
