@@ -1,5 +1,5 @@
 const routes = (handler) => [
- {
+  {
     method: 'POST',
     path: '/albums',
     handler: handler.postAlbumHandler,
@@ -19,5 +19,5 @@ const routes = (handler) => [
     path: '/albums/{id}',
     handler: handler.deleteAlbumByIdHandler,
   },
-]
+];
 module.exports = routes;
