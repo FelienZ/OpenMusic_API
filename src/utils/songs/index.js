@@ -1,4 +1,4 @@
-const mapSongsDBToModel = ({ 
+const mapSongsDBToModel = ({
   id,
   title,
   year,
